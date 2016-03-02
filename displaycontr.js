@@ -1,7 +1,7 @@
 angular.module('modName')
 
 .controller("displaycontr", function($scope, inputService){
-  			$scope.displayNoun= inputService.getInput();//no arguments 		
+  			$scope.specifyIndex= inputService.getInput();//no arguments 		
   // console.log("yeah")
   			
 });
