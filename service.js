@@ -9,13 +9,13 @@ angular.module('modName')
       
     },
     setInput : function(newInput){ //this tells the service to save the noun as newInput, which represents
+    	madLibs.push(newInput.place);
+    	madLibs.push(newInput.friend);
+    	madLibs.push(newInput.party);
+    	madLibs.push(newInput.pronoun);
+    	madLibs.push(newInput.verb);
     	madLibs.push(newInput.noun);
-    	madLibs.push(newInput.noun2);
-    	madLibs.push(newInput.noun3);
-    	madLibs.push(newInput.verb1);
-    	madLibs.push(newInput.verb2);
-    	madLibs.push(newInput.adj1);
-    	madLibs.push(newInput.adj2);
+    	madLibs.push(newInput.onomatopoeia);
 
 
     	// madLibs.noun = newInput.noun;
